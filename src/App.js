@@ -4,6 +4,7 @@ import Carousel from "./Carousel";
 import Recommended from "./Recommended";
 import Home from "./Home";
 import FilterComponent from "./SearchFilter";
+import Footer from "./Footer";
 
 const App = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -40,6 +41,7 @@ const App = () => {
           </div>
         </div>
       )}
+      <Footer/>
     </div>
   );
 };
