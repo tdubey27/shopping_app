@@ -1,0 +1,78 @@
+.filter-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
+  height: 100%; 
+  overflow-y: auto; 
+}
+
+.filter-container h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.filter-section {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.filter-title:hover {
+  color: #0056b3; 
+}
+
+.filter-options {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.filter-options label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.filter-options input {
+  margin-right: 5px;
+}
+
+.apply-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px; 
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #4caf50, #45a049);
+  border: none; 
+  border-radius: 25px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  cursor: pointer; 
+  transition: all 0.3s ease-in-out; 
+}
+
+.apply-button:hover {
+  background: linear-gradient(90deg, #45a049, #4caf50); 
+  transform: scale(1.05); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.apply-button:active {
+  transform: scale(0.95); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}

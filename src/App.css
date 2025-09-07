@@ -1,0 +1,19 @@
+.main-layout {
+  display: flex; /* Flexbox layout to align children horizontally */
+  flex-direction: row; /* Ensure children are row-wise aligned (side by side) */
+  height: 100vh; /* Full height to match the viewport */
+}
+
+.filter {
+  width: 40%; /* Filter takes 30% of the width */
+  background-color: #f9f9f9; /* Light background color */
+  border-right: 1px solid #ddd; /* Divider between filter and the home component */
+  overflow-y: auto; /* Scrollable if filter overflows */
+  padding: 20px; /* Spacing inside the filter section */
+}
+
+.home {
+  width: 100%; /* Home (search results) takes 70% of the width */
+  overflow-y: auto; /* Scrollable if content overflows */
+  padding: 20px; /* Spacing around the home content */
+}
